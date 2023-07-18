@@ -37,17 +37,6 @@ function clearCompleted() {
         counter = obj.index;
       }
     });
-    // let toDoItems = document.querySelectorAll('.toDoItem')
-    // // toDoItems.forEach(item => {
-    // //   try {
-    // //     let button = item.querySelector('input[type="text"]')
-    // //     let {value} = button
-    // //     let label = item.querySelector('label')
-    // //     label.innerHTML = ""
-    // //     label.textContent = value
-    // //   }
-    // //   catch{}
-    // // })
     localStorage.setItem('listItems', JSON.stringify(stored));
   });
 }
